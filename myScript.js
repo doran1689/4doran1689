@@ -110,3 +110,26 @@ function xToy()
     }
     return smallNum;
 }
+
+function createMadLib()
+{
+    var myAnswers=[];
+    var response = prompt("Type in Your Name");
+    myAnswers.push(response);
+    var response = prompt("Type Your Friends Name");
+    myAnswers.push(response);
+    var response = prompt("Type A Emotion");
+    myAnswers.push(response);
+    var response = prompt("Type Another Emotion");
+    myAnswers.push(response);
+    var response = prompt("Type A Activity Here");
+    myAnswers.push(response);
+    var response = prompt("Type Another Activity Here");
+    myAnswers.push(response);
+    var response = prompt("Type A Animal Here");
+    myAnswers.push(response);
+    return myAnswers[0] + " and " + myAnswers[1] + " went " + myAnswers[4] + ". While " + myAnswers[4] + ", a wild " + myAnswers[6] + " came out of nowhere and made them " + myAnswers[2] +
+        ". They later went to go " + myAnswers[5] + "and had a " + myAnswers[3] + " time! In the middle of " + myAnswers[5] + ", the same " + myAnswers[6] + " went after them again. " +
+        myAnswers[1] + " said \"It is time to stop this " + myAnswers[6] + "!\" After getting closer to the " + myAnswers[6] + ", " + myAnswers[1] + " noticed that the " + myAnswers[6] +
+        " had an injury. " + myAnswers[0] + " and " + myAnswers[1] + " took the " + myAnswers[6] + " to the vet and they had had a happy time afterwards."
+}
